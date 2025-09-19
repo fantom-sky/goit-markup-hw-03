@@ -111,7 +111,7 @@ ul {
     color: #fff;
 }
 
-.main-section-btn {
+.main-section .order-btn {
     cursor: pointer;
     font-family: inherit;
     color: #fff;
@@ -120,10 +120,16 @@ ul {
     line-height: inherit;
     letter-spacing: 0.04em;
     background-color: #4d5ae5;
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    overflow: visible;
 }
 
-.main-section-btn:hover,
-.main-section-btn:focus {
+.main-section .order-btn:hover,
+.main-section .order-btn:focus {
     background-color: #404bbf;
 }
 
@@ -150,8 +156,24 @@ ul {
     background-color: #f4f4fd;
 }
 
-.team-card-list .team-card-style {
+.team-list .card-style {
     background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px;
+    width: 264px;
+    height: 380px;
+    overflow: hidden;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-text {
+    width: 360px;
+    height: 120px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
+
 }
 
 .footer-style {
